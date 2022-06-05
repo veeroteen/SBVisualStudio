@@ -49,7 +49,7 @@ class Company
 	vector <Team> teams;
 public:
 	void start() {
-		cout << "Entre count of teams and worker in it\n";
+		cout << "Entre count of teams and workers in it\n";
 		int x, y;
 		cin >> x >> y;
 		for (int i = 0; i < x; i++) {

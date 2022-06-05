@@ -44,9 +44,6 @@
     <ClInclude Include="Structs.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Yggdrasil.h">
       <Filter>ElfVilage</Filter>
     </ClInclude>
@@ -62,10 +59,5 @@
     <ClInclude Include="Company.h">
       <Filter>Company</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="SBVisualStudio.rc">
-      <Filter>Файлы ресурсов</Filter>
-    </ResourceCompile>
   </ItemGroup>
 </Project>
