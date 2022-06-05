@@ -140,6 +140,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="SBVisualStudio.cpp" />
+    <ClCompile Include="Task1.cpp" />
+    <ClCompile Include="Task2.cpp" />
+    <ClCompile Include="Task3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Branch.h" />
+    <ClInclude Include="Company.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="Tasks.h" />
+    <ClInclude Include="Yggdrasil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SBVisualStudio.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -19,6 +19,25 @@ public:
 	}
 };
 
+class Vector2f {
+public:
+	double x;
+	double y;
+	bool operator ==(Vector2i local) {
+		if (this->x == local.x && this->y == local.y) {
+			return true;
+		}
+		return false;
+	}
+	Vector2f operator +(Vector2f local) {
+		return Vector2f{ this->x + local.x , this->y += local.y };
+	}
+	string get() {
+		return '[' + to_string(x) + ':' + to_string(y) + ']';
+	}
+};
+
+
 class Line {
 public:
 	Vector2i positions[2];

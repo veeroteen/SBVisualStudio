@@ -7,7 +7,11 @@
 using namespace std;
 
 void Task1(){
-	Player play;
-	play.engine();
+	Yggdrasil *wood = new Yggdrasil;
+	
+	wood->SetName();
+	wood->findElf();
+
+	cout  << endl;
 }
 
